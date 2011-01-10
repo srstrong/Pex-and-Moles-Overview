@@ -1,0 +1,82 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Moles.Moles</name>
+    </assembly>
+    <members>
+        <member name="T:Moles.Moles.MCustomer">
+            <summary>Mole type of <see cref="T:Moles.Customer"/>
+            .</summary>
+        </member>
+        <member name="M:Moles.Moles.MCustomer.#ctor">
+            <summary>Initializes a new mole</summary>
+        </member>
+        <member name="M:Moles.Moles.MCustomer.#ctor(Moles.Customer)">
+            <summary>Initializes a new mole for the given instance</summary>
+        </member>
+        <member name="M:Moles.Moles.MCustomer.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the moled type</summary>
+        </member>
+        <member name="M:Moles.Moles.MCustomer.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the moled type</summary>
+        </member>
+        <member name="P:Moles.Moles.MCustomer.Behavior">
+            <summary>Assigns the behavior for all methods of the moled type</summary>
+        </member>
+        <member name="P:Moles.Moles.MCustomer.CalculateAge">
+            <summary>Sets the mole of <see cref="M:Moles.Customer.CalculateAge"/>
+            </summary>
+        </member>
+        <member name="P:Moles.Moles.MCustomer.ConstructorDateTime">
+            <summary>Sets the mole of <see cref="M:Moles.Customer.#ctor(System.DateTime)"/>
+            </summary>
+        </member>
+        <member name="P:Moles.Moles.MCustomer.DateOfBirthGet">
+            <summary>Sets the mole of <see cref="P:Moles.Customer.DateOfBirth"/>
+            </summary>
+        </member>
+        <member name="P:Moles.Moles.MCustomer.DateOfBirthSetDateTime">
+            <summary>Sets the mole of <see cref="P:Moles.Customer.DateOfBirth"/>
+            </summary>
+        </member>
+        <member name="P:Moles.Moles.MCustomer.IsMinor">
+            <summary>Sets the mole of <see cref="M:Moles.Customer.IsMinor"/>
+            </summary>
+        </member>
+        <member name="T:Moles.Moles.MCustomer.AllInstances">
+            <summary>Define moles for all instances members</summary>
+        </member>
+        <member name="P:Moles.Moles.MCustomer.AllInstances.CalculateAge">
+            <summary>Sets the mole of <see cref="M:Moles.Customer.CalculateAge"/>
+            </summary>
+        </member>
+        <member name="P:Moles.Moles.MCustomer.AllInstances.DateOfBirthGet">
+            <summary>Sets the mole of <see cref="P:Moles.Customer.DateOfBirth"/>
+            </summary>
+        </member>
+        <member name="P:Moles.Moles.MCustomer.AllInstances.DateOfBirthSetDateTime">
+            <summary>Sets the mole of <see cref="P:Moles.Customer.DateOfBirth"/>
+            </summary>
+        </member>
+        <member name="P:Moles.Moles.MCustomer.AllInstances.IsMinor">
+            <summary>Sets the mole of <see cref="M:Moles.Customer.IsMinor"/>
+            </summary>
+        </member>
+        <member name="T:Moles.Moles.SCustomer">
+            <summary>Stub type of <see cref="T:Moles.Customer"/>
+            .</summary>
+        </member>
+        <member name="M:Moles.Moles.SCustomer.#ctor(System.DateTime)">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:Moles.Moles.SCustomer.InitializeStub">
+            <summary>Initializes a new instance of type SCustomer</summary>
+        </member>
+        <member name="P:Moles.Moles.SCustomer.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:Moles.Moles.SCustomer.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+    </members>
+</doc>

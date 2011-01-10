@@ -1,0 +1,147 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Dependencies.Moles</name>
+    </assembly>
+    <members>
+        <member name="T:Dependencies.Moles.MCustomer">
+            <summary>Mole type of <see cref="T:Dependencies.Customer"/>
+            .</summary>
+        </member>
+        <member name="M:Dependencies.Moles.MCustomer.#ctor">
+            <summary>Initializes a new mole</summary>
+        </member>
+        <member name="M:Dependencies.Moles.MCustomer.#ctor(Dependencies.Customer)">
+            <summary>Initializes a new mole for the given instance</summary>
+        </member>
+        <member name="M:Dependencies.Moles.MCustomer.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the moled type</summary>
+        </member>
+        <member name="M:Dependencies.Moles.MCustomer.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the moled type</summary>
+        </member>
+        <member name="P:Dependencies.Moles.MCustomer.Behavior">
+            <summary>Assigns the behavior for all methods of the moled type</summary>
+        </member>
+        <member name="P:Dependencies.Moles.MCustomer.ConstructorLevelInt32">
+            <summary>Sets the mole of <see cref="M:Dependencies.Customer.#ctor(Dependencies.Level,System.Int32)"/>
+            </summary>
+        </member>
+        <member name="P:Dependencies.Moles.MCustomer.LevelGet">
+            <summary>Sets the mole of <see cref="P:Dependencies.Customer.Level"/>
+            </summary>
+        </member>
+        <member name="P:Dependencies.Moles.MCustomer.LevelSetLevel">
+            <summary>Sets the mole of <see cref="P:Dependencies.Customer.Level"/>
+            </summary>
+        </member>
+        <member name="P:Dependencies.Moles.MCustomer.PointsGet">
+            <summary>Sets the mole of <see cref="P:Dependencies.Customer.Points"/>
+            </summary>
+        </member>
+        <member name="P:Dependencies.Moles.MCustomer.PointsSetInt32">
+            <summary>Sets the mole of <see cref="P:Dependencies.Customer.Points"/>
+            </summary>
+        </member>
+        <member name="T:Dependencies.Moles.MCustomer.AllInstances">
+            <summary>Define moles for all instances members</summary>
+        </member>
+        <member name="P:Dependencies.Moles.MCustomer.AllInstances.LevelGet">
+            <summary>Sets the mole of <see cref="P:Dependencies.Customer.Level"/>
+            </summary>
+        </member>
+        <member name="P:Dependencies.Moles.MCustomer.AllInstances.LevelSetLevel">
+            <summary>Sets the mole of <see cref="P:Dependencies.Customer.Level"/>
+            </summary>
+        </member>
+        <member name="P:Dependencies.Moles.MCustomer.AllInstances.PointsGet">
+            <summary>Sets the mole of <see cref="P:Dependencies.Customer.Points"/>
+            </summary>
+        </member>
+        <member name="P:Dependencies.Moles.MCustomer.AllInstances.PointsSetInt32">
+            <summary>Sets the mole of <see cref="P:Dependencies.Customer.Points"/>
+            </summary>
+        </member>
+        <member name="T:Dependencies.Moles.MDiscount">
+            <summary>Mole type of <see cref="T:Dependencies.Discount"/>
+            .</summary>
+        </member>
+        <member name="M:Dependencies.Moles.MDiscount.#ctor">
+            <summary>Initializes a new mole</summary>
+        </member>
+        <member name="M:Dependencies.Moles.MDiscount.#ctor(Dependencies.Discount)">
+            <summary>Initializes a new mole for the given instance</summary>
+        </member>
+        <member name="M:Dependencies.Moles.MDiscount.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the moled type</summary>
+        </member>
+        <member name="M:Dependencies.Moles.MDiscount.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the moled type</summary>
+        </member>
+        <member name="P:Dependencies.Moles.MDiscount.Behavior">
+            <summary>Assigns the behavior for all methods of the moled type</summary>
+        </member>
+        <member name="P:Dependencies.Moles.MDiscount.CalculateCustomerDiscountInt32">
+            <summary>Sets the mole of <see cref="M:Dependencies.Discount.CalculateCustomerDiscount(System.Int32)"/>
+            </summary>
+        </member>
+        <member name="P:Dependencies.Moles.MDiscount.ConstructorICustomerRepository">
+            <summary>Sets the mole of <see cref="M:Dependencies.Discount.#ctor(Dependencies.ICustomerRepository)"/>
+            </summary>
+        </member>
+        <member name="T:Dependencies.Moles.MDiscount.AllInstances">
+            <summary>Define moles for all instances members</summary>
+        </member>
+        <member name="P:Dependencies.Moles.MDiscount.AllInstances.CalculateCustomerDiscountInt32">
+            <summary>Sets the mole of <see cref="M:Dependencies.Discount.CalculateCustomerDiscount(System.Int32)"/>
+            </summary>
+        </member>
+        <member name="T:Dependencies.Moles.SCustomer">
+            <summary>Stub type of <see cref="T:Dependencies.Customer"/>
+            .</summary>
+        </member>
+        <member name="M:Dependencies.Moles.SCustomer.#ctor(Dependencies.Level,System.Int32)">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:Dependencies.Moles.SCustomer.InitializeStub">
+            <summary>Initializes a new instance of type SCustomer</summary>
+        </member>
+        <member name="P:Dependencies.Moles.SCustomer.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:Dependencies.Moles.SCustomer.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="T:Dependencies.Moles.SDiscount">
+            <summary>Stub type of <see cref="T:Dependencies.Discount"/>
+            .</summary>
+        </member>
+        <member name="M:Dependencies.Moles.SDiscount.#ctor(Dependencies.ICustomerRepository)">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:Dependencies.Moles.SDiscount.InitializeStub">
+            <summary>Initializes a new instance of type SDiscount</summary>
+        </member>
+        <member name="P:Dependencies.Moles.SDiscount.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:Dependencies.Moles.SDiscount.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="T:Dependencies.Moles.SICustomerRepository">
+            <summary>Stub type of <see cref="T:Dependencies.ICustomerRepository"/>
+            .</summary>
+        </member>
+        <member name="M:Dependencies.Moles.SICustomerRepository.#ctor">
+            <summary>Initializes a new instance of type SICustomerRepository</summary>
+        </member>
+        <member name="M:Dependencies.Moles.SICustomerRepository.d::Dependencies#ICustomerRepository#GetCustomer(System.Int32)">
+            <summary>Sets the stub of <see cref="M:Dependencies.ICustomerRepository.GetCustomer(System.Int32)"/>
+            </summary>
+        </member>
+        <member name="F:Dependencies.Moles.SICustomerRepository.GetCustomerInt32">
+            <summary>Sets the stub of <see cref="M:Dependencies.ICustomerRepository.GetCustomer(System.Int32)"/>
+            </summary>
+        </member>
+    </members>
+</doc>

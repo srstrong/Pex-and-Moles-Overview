@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Capitalise.Moles</name>
+    </assembly>
+    <members>
+        <member name="T:Capitalise.Moles.MExtensionMethods">
+            <summary>Mole type of <see cref="T:Capitalise.ExtensionMethods"/>
+            .</summary>
+        </member>
+        <member name="M:Capitalise.Moles.MExtensionMethods.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:Capitalise.Moles.MExtensionMethods.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the moled type</summary>
+        </member>
+        <member name="M:Capitalise.Moles.MExtensionMethods.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the moled type</summary>
+        </member>
+        <member name="P:Capitalise.Moles.MExtensionMethods.Behavior">
+            <summary>Assigns the behavior for all methods of the moled type</summary>
+        </member>
+        <member name="P:Capitalise.Moles.MExtensionMethods.CapitalizeString">
+            <summary>Sets the mole of <see cref="M:Capitalise.ExtensionMethods.Capitalize(System.String)"/>
+            </summary>
+        </member>
+    </members>
+</doc>

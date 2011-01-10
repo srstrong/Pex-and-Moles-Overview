@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Moles", "Moles\Moles.csproj", "{DAE262B2-4886-4B8C-BC01-3AB828D9770C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{25492FB2-40D3-4871-A74A-B8A4ABCDA844}"
+	ProjectSection(SolutionItems) = preProject
+		Local.testsettings = Local.testsettings
+		Moles.vsmdi = Moles.vsmdi
+		TraceAndTestImpact.testsettings = TraceAndTestImpact.testsettings
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Moles.Tests", "Moles.Tests01\Moles.Tests.csproj", "{2045455F-2C11-4355-89D0-A5C97D51E031}"
+EndProject
+Global
+	GlobalSection(TestCaseManagementSettings) = postSolution
+		CategoryFile = Moles.vsmdi
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DAE262B2-4886-4B8C-BC01-3AB828D9770C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DAE262B2-4886-4B8C-BC01-3AB828D9770C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DAE262B2-4886-4B8C-BC01-3AB828D9770C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DAE262B2-4886-4B8C-BC01-3AB828D9770C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2045455F-2C11-4355-89D0-A5C97D51E031}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2045455F-2C11-4355-89D0-A5C97D51E031}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2045455F-2C11-4355-89D0-A5C97D51E031}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2045455F-2C11-4355-89D0-A5C97D51E031}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

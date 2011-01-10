@@ -1,0 +1,82 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Array.Moles</name>
+    </assembly>
+    <members>
+        <member name="T:Array.Moles.MResizableArray`1">
+            <summary>Mole type of <see cref="T:Array.ResizableArray`1"/>
+            .</summary>
+        </member>
+        <member name="M:Array.Moles.MResizableArray`1.#ctor">
+            <summary>Initializes a new mole</summary>
+        </member>
+        <member name="M:Array.Moles.MResizableArray`1.#ctor(Array.ResizableArray{`0})">
+            <summary>Initializes a new mole for the given instance</summary>
+        </member>
+        <member name="M:Array.Moles.MResizableArray`1.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the moled type</summary>
+        </member>
+        <member name="M:Array.Moles.MResizableArray`1.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the moled type</summary>
+        </member>
+        <member name="P:Array.Moles.MResizableArray`1.AddT">
+            <summary>Sets the mole of <see cref="M:Array.ResizableArray`1.Add(`1)"/>
+            </summary>
+        </member>
+        <member name="P:Array.Moles.MResizableArray`1.Behavior">
+            <summary>Assigns the behavior for all methods of the moled type</summary>
+        </member>
+        <member name="P:Array.Moles.MResizableArray`1.ConstructorInt32">
+            <summary>Sets the mole of <see cref="M:Array.ResizableArray`1.#ctor(System.Int32)"/>
+            </summary>
+        </member>
+        <member name="P:Array.Moles.MResizableArray`1.ItemGetInt32">
+            <summary>Sets the mole of <see cref="P:Array.ResizableArray`1.Item(System.Int32)"/>
+            </summary>
+        </member>
+        <member name="P:Array.Moles.MResizableArray`1.LengthGet">
+            <summary>Sets the mole of <see cref="P:Array.ResizableArray`1.Length"/>
+            </summary>
+        </member>
+        <member name="P:Array.Moles.MResizableArray`1.Resize">
+            <summary>Sets the mole of <see cref="M:Array.ResizableArray`1.Resize"/>
+            </summary>
+        </member>
+        <member name="T:Array.Moles.MResizableArray`1.AllInstances">
+            <summary>Define moles for all instances members</summary>
+        </member>
+        <member name="P:Array.Moles.MResizableArray`1.AllInstances.AddT">
+            <summary>Sets the mole of <see cref="M:Array.ResizableArray`1.Add(`1)"/>
+            </summary>
+        </member>
+        <member name="P:Array.Moles.MResizableArray`1.AllInstances.ItemGetInt32">
+            <summary>Sets the mole of <see cref="P:Array.ResizableArray`1.Item(System.Int32)"/>
+            </summary>
+        </member>
+        <member name="P:Array.Moles.MResizableArray`1.AllInstances.LengthGet">
+            <summary>Sets the mole of <see cref="P:Array.ResizableArray`1.Length"/>
+            </summary>
+        </member>
+        <member name="P:Array.Moles.MResizableArray`1.AllInstances.Resize">
+            <summary>Sets the mole of <see cref="M:Array.ResizableArray`1.Resize"/>
+            </summary>
+        </member>
+        <member name="T:Array.Moles.SResizableArray`1">
+            <summary>Stub type of <see cref="T:Array.ResizableArray`1"/>
+            .</summary>
+        </member>
+        <member name="M:Array.Moles.SResizableArray`1.#ctor(System.Int32)">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:Array.Moles.SResizableArray`1.InitializeStub">
+            <summary>Initializes a new instance of type SResizableArray</summary>
+        </member>
+        <member name="P:Array.Moles.SResizableArray`1.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:Array.Moles.SResizableArray`1.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+    </members>
+</doc>
